@@ -1,0 +1,6 @@
+D = int(input("Masukkan daya tampung jerigen : "))
+J = int(input("Masukkan banyaknya jerigen : "))
+
+H = D*J
+
+print("Jumlah bensin yang dibutuhkan adalah", H, "Liter")
