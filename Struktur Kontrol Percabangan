@@ -1,0 +1,18 @@
+I = int(input("Masukkan jumlah uang yang anda miliki : $ "))
+
+if I >= 0 and I < 300:
+    print("Uang anda tidak cukup untuk membeli senjata")
+elif I >= 300 and I <= 1000:
+    print("Anda bisa membeli Pistol")
+elif I >= 1100 and I <= 1500:
+    print("Anda bisa membeli Pistol dan Shot Gun")
+elif I >= 1600 and I <= 2100:
+    print("Anda bisa membeli Pistol, Shot Gun, dan SMG(Sub Machine Gun)")
+elif I >= 2200 and I <= 3200:
+    print("Anda bisa membeli Pistol, Shot Gun, SMG(Sub Machine Gun), dan Assault Rifle")
+elif I >= 3300 and I <= 4700:
+    print("Anda bisa membeli Pistol, Shot Gun, SMG(Sub Machine Gun), Assault Rifle, dan Sniper")
+elif I >= 4800 and I <= 10000:
+    print("Anda bisa membeli Pistol, Shot Gun, SMG(Sub Machine Gun), Assault Rifle, Sniper, Machine Gun")
+else:
+    print("Jumlah uang yang anda masukkan tidak tepat")
