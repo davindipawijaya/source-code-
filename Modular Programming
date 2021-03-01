@@ -1,0 +1,8 @@
+def luas_segitiga(a,t):
+    luas = 0.5*a*t
+    return luas         #Mengeluarkan nilai yang merupakan hasil dari fungsi
+                        #Mengakhiri suatu fungsi
+
+print(luas_segitiga(4,5))
+print(luas_segitiga(6,4))
+print(luas_segitiga(8,6))
