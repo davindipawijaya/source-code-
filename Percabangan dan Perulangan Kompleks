@@ -1,0 +1,5 @@
+def setengah_ketupat(s):
+    for i in range (s):
+        print(''*(s-i-1)+'* '*(i+1))
+    for j in range (s-1,0,-1):
+        print (''*(s-j)+'* '*(j))
