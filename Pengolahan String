@@ -1,0 +1,5 @@
+x = str(input("Masukkan kata: "))
+k = len(x)
+print('Jumlah hurufnya adalah ',k)
+print('Huruf pertamanya adalah ',x[0])
+print('Huruf terakhirnya adalah ',x[k])
