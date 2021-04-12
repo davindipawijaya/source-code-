@@ -1,0 +1,7 @@
+file = open('video 8.txt','a')
+baris = int(input('Masukkan banyak baris: '))
+
+for i in range(baris):
+    kata = str(input('Tulis kalimat yang akan ditambahkan: '))
+    file.write(kata + '\n')
+file.close()
