@@ -1,0 +1,11 @@
+nama = ['Agung','Bambang','Clara','Dedy','Eko']
+umur = [23,23,25,26,24]
+jenis_kelamin = ['Laki-laki','Laki-laki','Perempuan','Laki-laki','Laki-laki']
+pekerjaan = ['Akuntan','Konsultan','Arsitek','Dokter','Insinyur']
+
+def program1(nama, umur, jenis_kelamin, pekerjaan):
+    print('========== Data ==========')
+    for i in range (0,4):
+        print(' Nama: ',nama[i],'\n','Umur: ',umur[i],'\n','Jenis kelamin: ',jenis_kelamin[i],'\n','Pekerjaan : ',pekerjaan[i])
+
+program1(nama, umur, jenis_kelamin, pekerjaan)
