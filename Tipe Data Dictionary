@@ -1,0 +1,10 @@
+daftar_huruf = ["n","a","s","i","w","a","r","t","e","g","n"]
+x = daftar_huruf
+d = dict()
+for y in daftar_huruf:
+    if y not in d:
+        d[y] = 1
+    else:
+        d[y] = d[y] + 1
+
+print(d)
