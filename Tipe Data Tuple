@@ -1,0 +1,10 @@
+seminggu = ('Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Minggu')
+
+def hitung_pengeluaran(seminggu):
+    total = 0
+    for i in seminggu:
+        x = int(input('Masukkan penghasilan anda pada hari '+i+' : Rp. '))
+        total += x
+    print('Total penghasilan anda minggu ini adalah : Rp. ',total)
+
+hitung_pengeluaran(seminggu)
