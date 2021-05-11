@@ -1,0 +1,12 @@
+alfabet = 'abcdefghijklmnopqrstuvwxyz'
+alfabet = set(alfabet)
+kalimat = str(input('Masukkan kalimat: '))
+kalimat = kalimat.lower()
+kurang  = ''
+for i in alfabet:
+  if i not in kalimat:
+    kurang += i
+if (len(kurang) != 0):
+  print('Huruf yang tidak ada adalah', kurang)
+else:
+  print('Hurufnya lengkap!')
