@@ -1,0 +1,20 @@
+def cekPrima(n):
+    if (n <= 2):
+        if n == 2:
+            print(n,"adalah bilangan prima")
+            return True
+        else:
+            print(n, "Bukan bilangan prima")
+            return False
+    if n > 2:
+        for i in range (2,n):
+            if (n % i) == 0:
+                print(n, "Bukan bilangan prima")
+            else:
+                print(n,"adalah bilangan prima")
+            break
+    else:
+        print(n,"bukan bilangan prima")
+
+n = int(input("Masukkan angka: "))
+cekPrima(n)
