@@ -1,0 +1,12 @@
+import re
+
+def cariNomor(n):
+    cari1 = re.findall(r'0821\d+', n)
+    print('Nomor Indosat: ', cari1)
+    cari2 = re.findall(r'0855\d+', n)
+    print('Nomor Telkomsel: ', cari2)
+    cari3 = re.findall(r'0817\d+', n)
+    print('Nomor XL: ', cari3)
+
+n = '082168459872, 085554891224, 085574123598, 081766528700, 082166587940'
+cariNomor(n)
